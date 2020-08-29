@@ -1,0 +1,8 @@
+
+import os
+
+file_name=input('enter file name')
+extension=(os.path.splitext(file_name)[1])
+print(f"The extension of the file_name is : {extension}")
+
+    
