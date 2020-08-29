@@ -1,3 +1,5 @@
-radius=int(input('enterthe radius of circle)
-area=3.14*radius*radius
+import math
+
+radius=int(input('enterthe radius of circle'))
+area=math.pi*radius*radius
 print(f'the area of the circle with radius {radius} is: {area}' )
