@@ -1,0 +1,23 @@
+string=input('enter string :')
+def split(string):
+    return[char for char in string]
+
+    
+letter=split(string)
+print(letter)
+
+def most_frequent():
+    count={}
+    for s in letter:
+        if s in count:
+            count[s]+=1
+        else:
+            count[s]=1
+    for key in count:
+        if count[key]>=1:
+            print((key,count[key]))
+print(most_frequent())       
+        
+    
+
+    
